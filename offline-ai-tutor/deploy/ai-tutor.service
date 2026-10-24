@@ -1,0 +1,15 @@
+[Unit]
+Description=Offline AI Tutor local backend
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/offline-ai-tutor
+ExecStart=/usr/bin/env bash %h/offline-ai-tutor/start.sh
+Restart=on-failure
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+Environment=PADDLE_PDX_CPU_NUM_THREADS=4
+
+[Install]
+WantedBy=default.target

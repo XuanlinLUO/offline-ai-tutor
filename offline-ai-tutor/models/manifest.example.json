@@ -1,0 +1,16 @@
+{
+  "verification_status": "not_verified",
+  "ollama_tag": "",
+  "ollama_digest": "",
+  "base_model_source": "",
+  "base_model_revision": "",
+  "model_kind": "unknown",
+  "adapter_sha256": "",
+  "training_run_reference": "",
+  "merged_weights_sha256": "",
+  "gguf_sha256": "",
+  "quantization_format": "",
+  "quantization_command": "",
+  "license_reference": "",
+  "notes": "Fill only from actual model artifacts and logs. This template certifies no training or deployment."
+}

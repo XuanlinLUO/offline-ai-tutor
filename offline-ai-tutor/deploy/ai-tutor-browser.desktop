@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Offline AI Tutor
+Comment=Open local teaching assistant after desktop login
+Exec=sh -c "$HOME/.local/bin/ai-tutor-kiosk.sh"
+Terminal=false
+X-GNOME-Autostart-enabled=true

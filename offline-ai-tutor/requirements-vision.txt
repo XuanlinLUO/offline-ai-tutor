@@ -1,0 +1,5 @@
+# Install PaddlePaddle separately using a wheel compatible with the target ARM OS.
+# These are compatibility ranges, not a verified Orange Pi lockfile.
+numpy>=1.26,<2
+opencv-python-headless>=4.10,<5
+paddleocr>=3.7,<4

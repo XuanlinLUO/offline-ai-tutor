@@ -1,0 +1,2 @@
+# Core web server and Ollama client use Python 3.10+ standard library only.
+# Camera/OCR optional dependencies: see requirements-vision.txt and docs/deployment.md.
