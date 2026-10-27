@@ -1,4 +1,0 @@
-{
-  "teaching_zh_train": {"file_name": "train.json", "formatting": "alpaca", "columns": {"prompt": "instruction", "query": "input", "response": "output"}},
-  "teaching_zh_validation": {"file_name": "validation.json", "formatting": "alpaca", "columns": {"prompt": "instruction", "query": "input", "response": "output"}}
-}

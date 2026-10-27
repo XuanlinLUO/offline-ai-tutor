@@ -1,9 +1,0 @@
-# TEMPLATE ONLY: the base model must match the adapter's actual training base.
-model_name_or_path: /path/to/Qwen3-4B-Instruct-2507
-adapter_name_or_path: outputs/qwen3-teaching-lora
-template: qwen3_nothink
-finetuning_type: lora
-export_dir: outputs/qwen3-teaching-merged
-export_size: 2
-export_device: cpu
-export_legacy_format: false

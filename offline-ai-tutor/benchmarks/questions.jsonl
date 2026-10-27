@@ -1,6 +1,0 @@
-{"id":"algebra-01","question":"解方程：2x+6=14。请解释每一步依据。","reference_answer":"x=4","category":"一元一次方程"}
-{"id":"ratio-01","question":"一杯糖水含糖20克、水180克。加入50克水后，糖的质量分数是多少？","reference_answer":"8%","category":"比例与百分数"}
-{"id":"geometry-01","question":"三角形的底为10厘米，对应的高为8厘米，求面积。","reference_answer":"40平方厘米","category":"几何"}
-{"id":"motion-01","question":"一辆车以每小时60千米的速度行驶，走完150千米需要多少小时？","reference_answer":"2.5小时","category":"行程问题"}
-{"id":"physics-01","question":"一个电阻两端电压为6伏，通过的电流为0.3安，求电阻值。","reference_answer":"20欧姆","category":"欧姆定律"}
-{"id":"incomplete-01","question":"一个三角形的一条边长是5厘米，求它的面积。","reference_answer":"信息不足，需补充条件","category":"缺失条件"}

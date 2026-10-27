@@ -1,4 +1,0 @@
-# Replace with the real merged-and-quantized GGUF file. No weights are bundled.
-FROM /absolute/path/to/qwen3-teaching-q4_k_m.gguf
-PARAMETER temperature 0.3
-PARAMETER num_predict 1024
