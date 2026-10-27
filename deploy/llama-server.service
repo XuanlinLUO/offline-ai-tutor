@@ -1,0 +1,14 @@
+[Unit]
+Description=Offline AI Tutor llama.cpp GGUF inference
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/offline-ai-tutor
+ExecStart=/usr/bin/env bash %h/offline-ai-tutor/deploy/start-model.sh
+Restart=on-failure
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target
